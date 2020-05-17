@@ -1,5 +1,7 @@
 body {
   font-family: 'Roboto';
+  margin: 5px;
+  background-color: #fff;
 }
 
 .header {
@@ -92,7 +94,7 @@ body {
     height: 230px;
     padding: 10px;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     border-radius: 5px;
 
     font-size: 20px;
@@ -143,5 +145,5 @@ body {
 .personPopup__exit {
     cursor: pointer;
     position: absolute;
-    z-index: 5;
+    z-index: 4;
 }
